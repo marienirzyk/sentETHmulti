@@ -1,0 +1,11 @@
+{
+  "name": "sendtoken",
+  "version": "1.0.0",
+  "description": "Send Ethereum tokens to multiple recipients",
+  "scripts": {
+    "start": "node transaction.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}
