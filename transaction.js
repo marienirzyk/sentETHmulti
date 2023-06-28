@@ -19,7 +19,7 @@ const amountToSend = ethers.utils.parseEther('0.001');
 // Initialize the Ethereum provider
 const provider = new ethers.providers.JsonRpcProvider(providerUrl);
 
-// Create a wallet instance using the sender's private key
+// Create a wallet instance using the sender's private key. ok
 const wallet = new ethers.Wallet(senderPrivateKey, provider);
 
 // Send Ether to each recipient address
